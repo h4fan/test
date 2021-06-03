@@ -1,14 +1,9 @@
 remote_theme: cotes2020/jekyll-theme-chirpy
 title: h4fan
-
-markdown: kramdown
-
 # theme: jekyll-theme-hacker
 
 description: blog about web sec, bug bounty
-author: h4fan
 
-url: "https://b.tcp.im"
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
