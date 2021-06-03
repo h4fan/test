@@ -5,6 +5,9 @@ title: h4fan
 
 description: blog about web sec, bug bounty
 
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
