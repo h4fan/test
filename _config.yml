@@ -1,9 +1,15 @@
 remote_theme: mmistakes/minimal-mistakes
 
-title: h4fan
+
 # theme: jekyll-theme-hacker
 
-description: blog about web sec, bug bounty
+
+locale                   : "zh-CN"
+title                    : "h4fan security"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "h4fan"
+description              : "blog about web sec, bug bounty"
 
 permalink:    /:year-:month-:day/:title
 paginate:     5
