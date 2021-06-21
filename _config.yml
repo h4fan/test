@@ -12,4 +12,5 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-include-cache
 
