@@ -1,0 +1,36 @@
+remote_theme: h4fan/no-style-please
+
+
+# theme: jekyll-theme-hacker
+
+
+locale                   : "zh-CN"
+title                    : "h4fan security"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "h4fan"
+description              : "blog about web sec, bug bounty"
+url                      : "https://h4fan.github.io"
+baseurl                  : "/test"
+
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
